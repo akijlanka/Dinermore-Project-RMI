@@ -1,0 +1,48 @@
+
+/*
+    Created on : Feb 28, 2019, 10:05:25 PM
+    Author     : akila
+*/
+.pane_bac{
+    -fx-background-color: transparent;
+}
+.pane{
+    -fx-background-color: #222628;
+}
+.btn-white{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: #e2dddd;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+}
+.white-pane{
+    -fx-background-color: white;
+}
+
+.tf_box{
+    -fx-background-color: transparent;
+}
+
+.tf_btn{
+    -fx-background-color: #207235;
+    -fx-border-radius: 5px;
+}
+.btnclose{
+    -fx-background-color: red;
+-fx-text-fill: white;
+}
+
+.btnminimize{
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+.subpane{
+    -fx-background-color: #222628;
+}
+.txtfil{
+    -fx-text-fill: white;
+}
+

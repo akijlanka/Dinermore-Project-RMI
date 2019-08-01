@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="827.0" styleClass="pane_bac" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dinermore.controller.MainLoginController">
+   <children>
+      <Pane layoutY="75.0" prefHeight="350.0" prefWidth="780.0">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="390.0" pickOnBounds="true">
+               <image>
+                  <Image url="@fast-food-black-background-poster_1284-14589.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="350.0" fitWidth="390.0" layoutX="390.0" pickOnBounds="true">
+               <image>
+                  <Image url="@fast-food-black-background-poster_1284-14589.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="138.0" layoutY="221.0" mnemonicParsing="false" onAction="#adminlogin" prefHeight="41.0" prefWidth="120.0" styleClass="btn-white" stylesheets="@style/style.css" text="Admin Login">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button layoutX="529.0" layoutY="221.0" mnemonicParsing="false" onAction="#cashierlogin" prefHeight="41.0" prefWidth="120.0" styleClass="btn-white" stylesheets="@style/style.css" text="Cashier Login">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <VBox fx:id="Vbox" layoutX="14.0" layoutY="-18.0" prefHeight="386.0" prefWidth="379.0" styleClass="white-pane" stylesheets="@style/style.css" />
+         </children>
+      </Pane>
+      <JFXButton layoutX="785.0" layoutY="75.0" onAction="#btnclose" prefHeight="34.0" prefWidth="30.0" styleClass="btnclose" stylesheets="@style/style.css" text="X">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="785.0" layoutY="117.0" onAction="#btnminimize" prefHeight="37.0" prefWidth="32.0" styleClass="btnminimize" stylesheets="@style/style.css" text="-">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

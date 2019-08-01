@@ -1,0 +1,31 @@
+.pane{
+    -fx-background-color: #222628;
+}
+.btnclose{
+    -fx-background-color:transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: red;
+    -fx-border-radius: 600px;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+}
+.btnminimize{
+    -fx-background-color:transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: yellow;
+    -fx-border-radius: 600px;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+}
+.btnlogin{
+    -fx-background-color:transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+}
+.label{
+    -fx-text-fill: white;
+
+}

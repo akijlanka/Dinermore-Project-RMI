@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="379.0" prefWidth="795.0" styleClass="pane" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dinermore.controller.LoginController2">
+   <children>
+      <Label layoutX="414.0" layoutY="33.0" text="Chaf Login" textFill="#9a9292">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <ImageView fitHeight="385.0" fitWidth="402.0" layoutX="-6.0" layoutY="-6.0" pickOnBounds="true" smooth="false">
+         <image>
+
+            <Image url="@fast-food-black-background-poster_1284-14589.jpg" />
+         </image></ImageView>
+      <Line endX="234.0" layoutX="546.0" layoutY="52.0" startX="7.0" stroke="WHITE" />
+      <JFXButton fx:id="btnminimize" layoutX="729.0" layoutY="5.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#minimize" prefHeight="27.0" prefWidth="26.0" styleClass="btnminimize" stylesheets="@style/style.css" text="-">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="btnclose" layoutX="761.0" layoutY="4.0" onAction="#close" styleClass="btnclose" stylesheets="@style/style.css" text="X" />
+      <Label layoutX="430.0" layoutY="73.0" text="User Name :" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="115.0" text="Password :" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtchefname" focusColor="#e0da2a" layoutX="532.0" layoutY="74.0" prefHeight="25.0" prefWidth="211.0" styleClass="label" stylesheets="@style/style.css" unFocusColor="WHITE" />
+      <JFXTextField fx:id="txtchafpassword" focusColor="#e0da2a" layoutX="532.0" layoutY="111.0" prefHeight="25.0" prefWidth="211.0" styleClass="label" stylesheets="@style/style.css" unFocusColor="WHITE" />
+      <JFXButton fx:id="btnchaflogin" layoutX="636.0" layoutY="164.0" onAction="#chaflogin" prefHeight="32.0" prefWidth="107.0" styleClass="btnlogin" stylesheets="@style/style.css" text="Login">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="413.0" layoutY="197.0" text="Deliver Login" textFill="#9a9292">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Line endX="227.0" layoutX="552.0" layoutY="216.0" startX="-8.0" stroke="WHITE" />
+      <Label layoutX="436.0" layoutY="237.0" text="User Name :" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="436.0" layoutY="279.0" text="Password :" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtdelivername" focusColor="#e0da2a" layoutX="538.0" layoutY="238.0" prefHeight="25.0" prefWidth="211.0" styleClass="label" stylesheets="@style/style.css" unFocusColor="WHITE" />
+      <JFXTextField fx:id="txtdeliverpassword" focusColor="#e0da2a" layoutX="538.0" layoutY="275.0" prefHeight="25.0" prefWidth="211.0" styleClass="label" stylesheets="@style/style.css" unFocusColor="WHITE" />
+      <JFXButton fx:id="btndeliver" layoutX="637.0" layoutY="328.0" onAction="#deliverlogin" prefHeight="32.0" prefWidth="107.0" styleClass="btnlogin" stylesheets="@style/style.css" text="Login">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
